@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1097769947907",
+    "firebase_url": "https://onlineshoppingapp.firebaseio.com",
+    "project_id": "onlineshoppingapp",
+    "storage_bucket": "onlineshoppingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097769947907:android:294ce217021d5684304f36",
+        "android_client_info": {
+          "package_name": "com.prac.loginpage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097769947907-abu6gd283sp6vuqnjem3r78ikn6s152p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prac.loginpage",
+            "certificate_hash": "0f0c139d88ed79315f8e7f64f3504908a9bbafdf"
+          }
+        },
+        {
+          "client_id": "1097769947907-7jcj9pjs1ce9sbvmb99u9h2h2tu3rdah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaj8eEt_qWQkFsAECJssvDd1HdIGilH6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097769947907-7jcj9pjs1ce9sbvmb99u9h2h2tu3rdah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

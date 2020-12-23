@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prac.loginpage">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_app_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Orders"
+            android:label="orders"
+            android:parentActivityName=".ShoppingScreen" />
+        <activity android:name=".Registration" />
+        <activity
+            android:name=".Logout"
+            android:label="logout"
+            android:parentActivityName=".ShoppingScreen" />
+        <activity android:name=".SuccessRating" />
+        <activity android:name=".ButtonProceed" />
+        <activity
+            android:name=".Help"
+            android:label="help"
+            android:parentActivityName=".ShoppingScreen" />
+        <activity
+            android:name=".viewWishlist"
+            android:label="wishlist"
+            android:parentActivityName=".ShoppingScreen" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewCart"
+            android:label="cart"
+            android:parentActivityName=".ShoppingScreen" />
+        <activity android:name=".SelectedItemActivity" />
+        <activity android:name=".CategoryListActivity" />
+        <activity android:name=".ItemsList" />
+        <activity android:name=".SQLiteDevopActivity" />
+        <activity android:name=".ShoppingScreen" />
+        <activity android:name=".AccountInfoActivity" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

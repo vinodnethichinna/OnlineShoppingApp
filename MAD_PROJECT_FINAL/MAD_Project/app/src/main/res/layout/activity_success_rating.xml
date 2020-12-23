@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SuccessRating">
+
+    <ImageView
+        android:id="@+id/imgViewSuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/imgViewSuccessDesc"
+        app:srcCompat="@drawable/paymentsuccess" />
+
+    <TextView
+        android:id="@+id/txtViewThanks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewThanksDesc"
+        android:textColor="#FC141313"
+        android:textSize="20sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imgGoodDay"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/imgGoodDay"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/goodday" />
+
+    <ImageView
+        android:id="@+id/imgContinue"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        app:srcCompat="@drawable/continueshop" />
+
+</LinearLayout>

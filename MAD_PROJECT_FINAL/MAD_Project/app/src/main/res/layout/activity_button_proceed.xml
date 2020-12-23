@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ButtonProceed">
+
+    <TextView
+        android:id="@+id/txtViewBilling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/txtViewBillingDesc"
+        android:textColor="#F5131314"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtTxtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edtTxtNameDesc"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtTxtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edtTxtPhDesc"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtTxtMailing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edtTxtMailDesc"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtViewPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/txtViewPayment"
+        android:textColor="#F70C0C0C"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/rdGrpPayment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" >
+
+        <RadioButton
+            android:id="@+id/radioBtnCredit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioBtnCredit" />
+
+        <RadioButton
+            android:id="@+id/radioBtnDebit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioBtnDebit" />
+
+        <RadioButton
+            android:id="@+id/radioBtnCod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioBtnCodDesc" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edtTxtCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edtTxtCardDesc"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/edtTxtExpiry"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edtTxtExpiryDesc"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtTxtCVV"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edtTxtCVVDesc"
+        android:inputType="textPersonName" />
+
+    <ImageButton
+        android:id="@+id/imgBtnPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6E82CC"
+        android:contentDescription="@string/imgBtnPayment"
+        android:tint="#080809"
+        app:srcCompat="@drawable/checkout" />
+</LinearLayout>

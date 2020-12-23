@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Online Shopping App</string>
+    <string name="emailText">E-mail Address</string>
+    <string name="passTxtValue">Password</string>
+    <string name="passChkBox">Show Password</string>
+    <string name="loginBtnTxt">Login</string>
+    <string name="profileName">Name</string>
+    <string name="profileEmail">Email</string>
+    <string name="profileId">ID</string>
+    <string name="signOut">SIGN OUT</string>
+    <string name="facebook_app_id">779595815819111</string>
+    <string name="fb_login_protocol_scheme">fb779595815819111</string>
+    <string name="edtNameHint">Name</string>
+    <string name="edPriceHint">Price</string>
+    <string name="imageViewDesc">Item Image</string>
+    <string name="btnChooseTxt">Choose Image</string>
+    <string name="btnAddDesc">Add</string>
+    <string name="btnListDesc">Item List</string>
+    <string name="imgItemDesc">Item Image</string>
+    <string name="txtNameDesc">Item Name</string>
+    <string name="txtPriceDesc">Item Price</string>
+    <string name="edtPriceDesc">Item Price</string>
+    <string name="imageViewItem">Item Image</string>
+    <string name="spinnerQtyPrompt">Select Quantity</string>
+    <string name="spinnerSizePrompt">Select Size</string>
+    <string name="btnAddtoCartDesc">ADD TO CART</string>
+    <string name="btnWishListDesc">ADD TO WISHLIST</string>
+    <string name="itemCartDesc">Cart</string>
+    <string name="txtViewTotalCost">Total Cost</string>
+    <string name="btnProceedCheckoutTxt">PROCEED TO CHECKOUT</string>
+    <string name="imgViewLogoDesc">Logo Image</string>
+    <string name="menuWishlistDesc">Wishlist</string>
+    <string name="menuHelpDesc">Help</string>
+    <string name="helpText">This is OnlineShopping Application Help Page. \nIf you have any queries kindly drop an email clearly stating your problem to help24/7@shoppingApp.com. \nOur Support Team will get back to you in 2 working days. Thank you.</string>
+    <string name="txtViewHelp">This is OnlIneShopping Application</string>
+    <string name="txtHelpDesc">This is OnLineShopping Application Help Page \nIf you have any queries kindly drop an email clearly stating your problem to help24/7@shoppingApp.com. Our Support Team will get back to you in 2 working days. Thank you</string>
+    <string name="txtViewBillingDesc"><![CDATA[Billing & Shipping Details]]></string>
+    <string name="edtTxtNameDesc">Name</string>
+    <string name="edtTextPhoneDesc">Phone Number</string>
+    <string name="edtTxtMailingDesc">Mailing Address</string>
+    <string name="txtViewPayment">Payment Details</string>
+    <string name="radioBtnCredit">Credit Card</string>
+    <string name="radioBtnDebit">Debit Card</string>
+    <string name="radioBtnCodDesc">Cash On Delivery(COD)</string>
+    <string name="edtTxtCardDesc">Card Number (16 Digits)</string>
+    <string name="edtTxtPhDesc">Phone Number</string>
+    <string name="edtTxtMailDesc">Mailing Address</string>
+    <string name="edtTxtExpiryDesc">Expiry(MM/YY)</string>
+    <string name="edtTxtCVVDesc">Card CVV</string>
+    <string name="imgBtnPayment">Payment Button</string>
+    <string name="txtViewSuccessMsg">Payment Successful</string>
+    <string name="imgViewSuccessDesc">Success Image</string>
+    <string name="txtViewThanksDesc">Thank you for Shopping with us. Please Rate us.</string>
+    <string name="imgGoodDay">Good Day Image</string>
+    <string name="sizeTxt">Size</string>
+    <string name="qtyText">Quantity</string>
+    <string name="registerText">New User? Sign Up</string>
+    <string name="menuLogoutDesc">Logout</string>
+    <string name="txtViewLogout">Are you sure you want to logout.</string>
+    <string name="btnConfirm">Confirm</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnGotoShoppingDesc">Go to App</string>
+    <string name="editTxtUserNameDesc">User Name</string>
+    <string name="editTxtPassword">Password</string>
+    <string name="editTxtConfirmpw">Confirm Password</string>
+    <string name="editTxtPhone">Phone Number</string>
+    <string name="editTxtAge">Age</string>
+    <string name="editTxtEmail">Email</string>
+    <string name="btnRegisterDesc">Register Now</string>
+    <string name="txtViewBtmLineDesc">Already Existing User?</string>
+    <string name="txtViewBtmLoginDesc">Login Here</string>
+    <string name="userNamwHint">User Name</string>
+    <string name="passwordHint">Password</string>
+    <string name="confirmpwHint">Confirm Password</string>
+    <string name="phoneHint">Phone Number</string>
+    <string name="AgeHint">Age</string>
+    <string name="emailHint">Email</string>
+    <string name="menuOrdersDesc">Orders</string>
+    <string-array name="Quantity">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+        <item>"8"</item>
+        <item>"9"</item>
+        <item>"10"</item>
+    </string-array>
+
+    <string-array name="size">
+        <item>"S"</item>
+        <item>"M"</item>
+        <item>"L"</item>
+        <item>"XL"</item>
+    </string-array>
+</resources>
